@@ -1,0 +1,66 @@
+body{
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  padding: 15px;
+}
+
+.article{
+  background: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-bottom: 25px;
+}
+
+.commentBox{
+  background: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-bottom: 40px;
+}
+
+label{
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #aaa;
+  margin-top: 5px;
+}
+
+textarea{
+  height: 70px;
+}
+
+button{
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #0066cc;
+  color: white;
+  border: none;
+}
+
+.err{
+  color: red;
+  font-size: 13px;
+  height: 16px;
+}
+
+.stars span{
+  font-size: 20px;
+  cursor: pointer;
+  color: #aaa;
+}
+
+.stars .on{
+  color: gold;
+}
+
+#list1 div, #list2 div{
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
